@@ -1,398 +1,48 @@
-<!DOCTYPE html>
-<html>
+# Дискретная математика
 
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>students</title>
-  <link rel="stylesheet" href="http://app.classeur.io/base-min.css" />
-  <script type="text/javascript" src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML"></script>
-</head>
 
-<body>
-  <div class="export-container"><h1 id="дискретная-математика">Дискретная математика</h1>
-<h2 id="кр-варианты">КР: Варианты</h2>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Фамилия</th>
-<th align="center">КР1 Вариант</th>
-<th align="center">КР2 Вариант</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Ващенко</td>
-<td align="center">7</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>2</td>
-<td>Воробьева</td>
-<td align="center">17</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>3</td>
-<td>Галушко</td>
-<td align="center">6</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>4</td>
-<td>Зайцева</td>
-<td align="center">18</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>5</td>
-<td>Иванов</td>
-<td align="center">11</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>6</td>
-<td>Конопатов</td>
-<td align="center">5</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>7</td>
-<td>Кувырков</td>
-<td align="center">21</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>8</td>
-<td>Малныкин</td>
-<td align="center">14</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>9</td>
-<td>Мехтиев</td>
-<td align="center">4</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>10</td>
-<td>Николаев</td>
-<td align="center">16</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>11</td>
-<td>Попов</td>
-<td align="center">26</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>12</td>
-<td>Пшеницын</td>
-<td align="center">8</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>13</td>
-<td>Филин</td>
-<td align="center">23</td>
-<td align="center">?</td>
-</tr>
-<tr>
-<td>14</td>
-<td>Терешина</td>
-<td align="center">22</td>
-<td align="center">?</td>
-</tr>
-</tbody>
-</table>
-<h2 id="кр-1">КР 1</h2>
-<blockquote>
-<ul>
-<li><strong>1.в</strong> — изобразить на кругах Эйлера</li>
-<li><strong>1.г</strong> — СДНФ</li>
-<li><strong>1.д</strong> — СКНФ</li>
-<li><strong>1.е</strong> — п-м Жегалкина</li>
-</ul>
-</blockquote>
-<table>
-<thead>
-<tr>
-<th></th>
-<th>Фамилия</th>
-<th align="center">Вариант</th>
-<th align="center">1.а</th>
-<th align="center">1.б</th>
-<th align="center">1.в</th>
-<th align="center">1.г</th>
-<th align="center">1.д</th>
-<th align="center">1.е</th>
-<th align="center">3</th>
-<th align="center">4.1</th>
-<th align="center">4.2</th>
-<th align="center">4.3</th>
-<th align="center">4.4</th>
-<th align="center">5</th>
-<th align="center">∑</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1</td>
-<td>Ващенко</td>
-<td align="center"><strong>07</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>2</td>
-<td>Воробьева</td>
-<td align="center"><strong>17</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>3</td>
-<td>Галушко</td>
-<td align="center"><strong>06</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>4</td>
-<td>Зайцева</td>
-<td align="center"><strong>18</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>5</td>
-<td>Иванов</td>
-<td align="center"><strong>11</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>6</td>
-<td>Конопатов</td>
-<td align="center"><strong>05</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>7</td>
-<td>Кувырков</td>
-<td align="center"><strong>21</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>8</td>
-<td>Малныкин</td>
-<td align="center"><strong>14</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>9</td>
-<td>Мехтиев</td>
-<td align="center"><strong>04</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>10</td>
-<td>Николаев</td>
-<td align="center"><strong>16</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>11</td>
-<td>Попов</td>
-<td align="center"><strong>26</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>12</td>
-<td>Пшеницын</td>
-<td align="center"><strong>08</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>13</td>
-<td>Филин</td>
-<td align="center"><strong>23</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-<tr>
-<td>14</td>
-<td>Терешина</td>
-<td align="center"><strong>22</strong></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-<td align="center"></td>
-</tr>
-</tbody>
-</table></div>
-</body>
+## КР: Варианты
 
-</html>
+|    | Фамилия   | КР1 Вариант | КР2 Вариант |
+|----|-----------|:-----------:|:-----------:|
+| 1  | Ващенко   |           7 |           ? |
+| 2  | Воробьева |          17 |           ? |
+| 3  | Галушко   |           6 |           ? |
+| 4  | Зайцева   |          18 |           ? |
+| 5  | Иванов    |          11 |           ? |
+| 6  | Конопатов |           5 |           ? |
+| 7  | Кувырков  |          21 |           ? |
+| 8  | Малныкин  |          14 |           ? |
+| 9  | Мехтиев   |           4 |           ? |
+| 10 | Николаев  |          16 |           ? |
+| 11 | Попов     |          26 |           ? |
+| 12 | Пшеницын  |           8 |           ? |
+| 13 | Филин     |          23 |           ? |
+| 14 | Терешина  |          22 |           ? |
+
+## КР 1
+
+
+> - __1.в__ — изобразить на кругах Эйлера
+> - __1.г__ — СДНФ
+> - __1.д__ — СКНФ
+> - __1.е__ — п-м Жегалкина
+
+|    | Фамилия   | Вариант |1.а|1.б|1.в|1.г|1.д|1.е| 3 |4.1|4.2|4.3|4.4| 5 | ∑ |
+|----|-----------|:-------:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|:-:|
+| 1  | Ващенко   |  __07__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 2  | Воробьева |  __17__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 3  | Галушко   |  __06__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 4  | Зайцева   |  __18__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 5  | Иванов    |  __11__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 6  | Конопатов |  __05__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 7  | Кувырков  |  __21__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 8  | Малныкин  |  __14__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 9  | Мехтиев   |  __04__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 10 | Николаев  |  __16__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 11 | Попов     |  __26__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 12 | Пшеницын  |  __08__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 13 | Филин     |  __23__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+| 14 | Терешина  |  __22__ |   |   |   |   |   |   |   |   |   |   |   |   |   |
+
+
