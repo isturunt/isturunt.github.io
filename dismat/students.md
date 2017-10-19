@@ -108,7 +108,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="кр-1">КР 1</h3>
+<h2 id="кр-1">КР 1</h2>
 <blockquote>
 <ul>
 <li><strong>1.в</strong> — изобразить на кругах Эйлера</li>
